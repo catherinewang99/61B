@@ -1,0 +1,3 @@
+else if (board().turn() != myPiece()){
+                _controller.reportError("Incorrect turn.");
+                continue;
